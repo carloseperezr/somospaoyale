@@ -1,0 +1,203 @@
+.planesWraper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 768px;
+  height: 100%;
+}
+
+.titleContainer{
+  font-family: AgrandirRegular;
+  color:#B97286 ;
+  font-size: 64px;
+  margin: 50px 0px;
+  font-weight: lighter;  padding: 20px;
+
+}
+
+.cardWraper{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 20px;
+}
+
+.basicCard{
+  background-color: #F6D1C7;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 600px;
+  border-radius: 20px;
+  padding: 20px;
+  transition: 0.5s ease-in-out;
+}
+
+.basicCard:hover{
+  transition: 0.5s ease-in-out;
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.411);
+}
+
+.basicCardInfo h2{
+  font-size: 32px;
+  font-weight: bold;
+  font-family: AgrandirRegular;
+  color: #545454;
+}
+
+.basicCardInfo small{
+  color: #545454;
+  font-size: 20px;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.basicPrice{
+  font-size: 40px;
+  margin-top: 50px;
+  color: #545454;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.basicList{
+  margin-top: 100px;
+  margin-bottom: 165px;
+}
+
+
+.basicList li{
+  color: #545454;
+  font-family: 'Nunito Sans', sans-serif;
+  list-style: none;
+}
+
+.basicList span{
+  margin-left: 10px;
+}
+
+.btnWraper{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.basicCardBtn{
+  cursor: pointer;
+  width: 200px;
+  border-radius: 20px;
+  padding: 10px 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: AgrandirRegular;
+  border: none;
+  background-color: #B97286;
+  color:#D9D9D9;
+  transition: 0.3s ease-in-out;
+}
+
+.basicCardBtn:hover{
+  transition: 0.2s ease-in-out;
+  background-color: #f5ede6;
+  color:#545454;
+}
+
+.premiumCard{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #B97286;
+  width: 300px;
+  height: 600px;
+  border-radius: 20px;
+  padding: 20px;
+  transition: 0.5s ease-in-out;
+}
+
+.premiumCard:hover{
+  transition: 0.5s ease-in-out;
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.411);
+}
+
+.premiumCardInfo h2{
+  font-size: 32px;
+  font-weight: bold;
+  font-family: AgrandirRegular;
+  color: #D9D9D9;
+}
+
+.premiumCardInfo small{
+  color: #D9D9D9;
+  font-size: 20px;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.premiumPrice{
+  font-size: 40px;
+  margin-top: 30px;
+  color: #D9D9D9;
+  font-family: AgrandirRegular;
+}
+
+.premiumPrice small{
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 100;
+}
+
+.premiumList{
+  margin-bottom: 30px;
+}
+
+.premiumList li{
+  color: #D9D9D9;
+  font-family: 'Nunito Sans', sans-serif;
+  list-style: none;
+  margin: 15px;
+}
+
+.premiumList span{
+  margin-left: 10px;
+}
+
+.premiumCardBtn{
+  cursor: pointer;
+  width: 200px;
+  border-radius: 20px;
+  padding: 10px 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: AgrandirRegular;
+  border: none;
+  background-color: #D9D9D9 ;
+  color:#545454;
+  transition: 0.3s ease-in-out;
+}
+
+.premiumCardBtn:hover{
+  transition: 0.2s ease-in-out;
+  background-color: #f5ede6;
+  color:#545454;
+}
+
+
+@media (width < 768px) {
+
+  .planesWraper{
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  justify-content: center; 
+}
+
+  .cardWraper{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    background-color: #F5EDE6;
+  }
+
+  .basicCard{
+    margin-bottom: 40px;
+  }
+}

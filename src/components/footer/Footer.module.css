@@ -1,0 +1,40 @@
+.footerContainer{
+  font-family: 'Nunito Sans', sans-serif;
+  color: #B97286;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  background-color: #F5EDE6;
+}
+
+.footerNav{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footerNav h3{
+  font-family: AgrandirRegular;
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.footerNav h4{
+  margin-top: 20px;
+  margin-bottom: 50px;
+  font-family: AgrandirRegular;
+  font-size: 32px;
+}
+
+
+.footerIcons img{
+  background-color: #F6D1C7;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 50px 15px 100px 15px;
+  width: 50px;
+  height: 50px
+}

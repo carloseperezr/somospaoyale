@@ -6,14 +6,9 @@
   align-items: self-start;
 }
 
-.equilibriumInfoContainer img{
-  margin-left: -7px;
-  margin-bottom: -50px;
-  width: 300px;
-}
-
 .equilibriumInfoContainer h2 {
   font-family: AgrandirRegular;
+  font-weight: lighter;
   font-size: 64px;
   margin-top: -50px;
   color: #B97286;
@@ -194,10 +189,8 @@
     background-color: #F5EDE6;
   }
 
-  .equilibriumInfoContainer img{
-    width:90% ;
-    margin-left: -7px;
-    margin-bottom: -50px;
+  .equilibriumInfoContainer h2 {
+    margin-top: -30px;
   }
 
   .textContainer{

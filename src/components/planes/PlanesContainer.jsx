@@ -12,16 +12,20 @@ export const PlanesContainer = () => {
             <small>Lo necesario para iniciar.</small>
           </div>
           <div className={`${classes.basicPrice}`}>
-            <h2>$7</h2>
-            <small>mensual</small>
+            <h2>$5</h2>
+            <small>mensuales</small>
           </div>
           <div className={`${classes.basicList}`}>
             <ul>
               <li>
                 <FaCircleCheck />
-                <span>Agenda Digital</span>
+                <span> Plantilla personalizada Notion</span>
               </li>
-              <li className={`${classes.listDetail}`}>Plantilla Notion</li>
+              <li className={`${classes.listDetail}`}></li>
+              <li>
+                <FaCircleCheck />
+                <span>Tutorial de cómo usarlo</span>
+              </li>
             </ul>
           </div>
           <div className={`${classes.btnWraper}`}>
@@ -34,8 +38,8 @@ export const PlanesContainer = () => {
             <small>Todas las herramientas para una mejor versión de ti.</small>
           </div>
           <div className={`${classes.premiumPrice}`}>
-            <h2>$20</h2>
-            <small>mensual</small>
+            <h2>$14.99</h2>
+            <small>mensuales</small>
           </div>
           <div className={`${classes.premiumList}`}>
             <ul>

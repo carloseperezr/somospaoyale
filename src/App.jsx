@@ -1,18 +1,15 @@
 import "./App.css";
-import { NavBarContainer } from "./components/navbar/NavBarContainer";
-import { FooterContainer } from "./components/footer/FooterContainer";
-import { Link, BrowserRouter, Route, Routes } from "react-router-dom";
 import { FullPage } from "./views/FullPage";
+import { NavBarContainer } from "../src/components/navbar/NavBarContainer";
+import { FooterContainer } from "../src/components/footer/FooterContainer";
 
 function App() {
   return (
-    <BrowserRouter>
+    <>
       <NavBarContainer />
-      <Routes>
-        <Route path="/" Component={FullPage} />
-      </Routes>
+      <FullPage />
       <FooterContainer />
-    </BrowserRouter>
+    </>
   );
 }
 

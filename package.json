@@ -1,8 +1,8 @@
 {
-  "homepage": "https://carloseperezr.github.io/somospaoyale",
-  "name": "pao-ale",
+  "homepage": "http://somospaoyale.com/",
+  "name": "somospaoyale",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
   "scripts": {
     "dev": "vite",

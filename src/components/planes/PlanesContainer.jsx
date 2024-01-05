@@ -4,7 +4,7 @@ import { FaCircleCheck } from "react-icons/fa6";
 export const PlanesContainer = () => {
   return (
     <div className={`${classes.planesWraper}`}>
-      <h2 className={`${classes.titleContainer}`}>¿Cómo unirme?</h2>
+      <h2 className={`${classes.mainTitleContainer}`}>¿Cómo unirme?</h2>
       <div className={`${classes.stepsListContainer}`}>
         <ul>
           <li>

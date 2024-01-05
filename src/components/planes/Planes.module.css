@@ -7,12 +7,22 @@
   height: 100%;
 }
 
+.mainTitleContainer{
+  font-family: AgrandirRegular;
+  color:#B97286 ;
+  font-weight: lighter;
+  font-size: 64px;
+  margin: 50px 0px 50px 0px;
+  font-weight: lighter;  padding: 20px;
+  text-align: center;
+}
+
 .titleContainer{
   font-family: AgrandirRegular;
   color:#B97286 ;
   font-weight: lighter;
   font-size: 64px;
-  margin: 80px 0px 50px 0px;
+  margin: 0px 0px 50px 0px;
   font-weight: lighter;  padding: 20px;
   text-align: center;
 }

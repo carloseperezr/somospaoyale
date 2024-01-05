@@ -229,6 +229,10 @@
   padding-top: 20px;
 }
 
+.planesWraper .mainTitleContainer{
+  margin-top: 70px;
+}
+
   .cardWraper{
     display: flex;
     flex-direction: column;

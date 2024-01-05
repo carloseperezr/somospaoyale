@@ -1,5 +1,4 @@
 import classes from "./Equilibrium.module.css";
-import logo from "../../assets/EquilibriumLogo1.png";
 
 export const EquilibriumContainer = () => {
   return (

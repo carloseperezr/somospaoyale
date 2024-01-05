@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   width: 768px;
   height: 100%;
 }
@@ -9,16 +10,68 @@
 .titleContainer{
   font-family: AgrandirRegular;
   color:#B97286 ;
+  font-weight: lighter;
   font-size: 64px;
-  margin: 50px 0px;
+  margin: 80px 0px 50px 0px;
   font-weight: lighter;  padding: 20px;
+}
 
+.stepsListContainer{
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.stepsListContainer ul{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-evenly;
+  list-style: none;
+}
+
+.stepsListContainer ul li{
+  border-radius: 20px;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: left;
+  margin: 10px 0px;
+  padding: 10px;
+  color: #545454;
+  font-size: 24px;
+  font-family: 'Nunito Sans', sans-serif;
+
+}
+
+.stepsListContainer .listNumber{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 5%;
+  padding: 10px;
+  border-radius: 50%;
+  font-size: 80px;
+  font-family: AgrandirRegular;
+  color: #bebdba;
+
+}
+
+.stepsListContainer .listStep{
+  padding: 10px;
+  width: 80%;
 }
 
 .cardWraper{
   display: flex;
+  width: 100%;
+  flex-direction: column;
   justify-content: space-between;
   padding: 20px 20px;
+}
+
+.planesContainer{
+  display: flex;
+  justify-content: space-between;
 }
 
 .basicCard{
@@ -74,33 +127,6 @@
   margin-left: 10px;
 }
 
-.btnWraper{
-  display: flex;
-  width: 100%;
-  align-items: center;
-  justify-content: center;
-}
-
-.basicCardBtn{
-  cursor: pointer;
-  width: 200px;
-  border-radius: 20px;
-  padding: 10px 5px;
-  text-transform: uppercase;
-  font-weight: bold;
-  font-family: AgrandirRegular;
-  border: none;
-  background-color: #B97286;
-  color:#D9D9D9;
-  transition: 0.3s ease-in-out;
-}
-
-.basicCardBtn:hover{
-  transition: 0.2s ease-in-out;
-  background-color: #f5ede6;
-  color:#545454;
-}
-
 .premiumCard{
   display: flex;
   flex-direction: column;
@@ -133,7 +159,7 @@
 
 .premiumPrice{
   font-size: 40px;
-  margin-top: 30px;
+  margin-top: -10px;
   color: #D9D9D9;
   font-family: AgrandirRegular;
 }
@@ -161,6 +187,7 @@
 .premiumCardBtn{
   cursor: pointer;
   width: 200px;
+  margin-top: 50px;
   border-radius: 20px;
   padding: 10px 5px;
   text-transform: uppercase;
@@ -174,8 +201,8 @@
 
 .premiumCardBtn:hover{
   transition: 0.2s ease-in-out;
-  background-color: #f5ede6;
-  color:#545454;
+  background-color: #54545475;
+  color:#e6e1dd;
 }
 
 
@@ -186,6 +213,7 @@
   flex-direction: column; 
   align-items: center;
   justify-content: center; 
+  padding-top: 20px;
 }
 
   .cardWraper{

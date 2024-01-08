@@ -3,7 +3,7 @@ import classes from "./Planes.module.css";
 
 export const PlanesSection = () => {
   return (
-    <div id="planes" className={`${classes.planesContainer}`}>
+    <div id="suscripción" className={`${classes.planesContainer}`}>
       <PlanesContainer />
     </div>
   );

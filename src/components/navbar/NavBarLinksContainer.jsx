@@ -7,14 +7,14 @@ export const NavBarLinksContainer = () => {
   return (
     <div className={`${classes.navBarLinksContainer}`}>
       <Link
-        to="hero"
+        to="inicio"
         spy={true}
         smooth={true}
         hashSpy={true}
         offset={0}
         duration={500}
       >
-        <NavBarLinks direction="Inicio" route="hero" />
+        <NavBarLinks direction="inicio" route="inicio" />
       </Link>
       <div className={`${classes.navLinkSeparator}`}>
         <p> - </p>
@@ -27,20 +27,20 @@ export const NavBarLinksContainer = () => {
         offset={0}
         duration={500}
       >
-        <NavBarLinks direction="Equilibrium" route="equilibrium" />
+        <NavBarLinks direction="equilibrium" route="equilibrium" />
       </Link>
       <div className={`${classes.navLinkSeparator}`}>
         <p> - </p>
       </div>
       <Link
-        to="planes"
+        to="suscripción"
         spy={true}
         smooth={true}
         hashSpy={true}
         offset={0}
         duration={500}
       >
-        <NavBarLinks direction="Suscripción" route="planes" />
+        <NavBarLinks direction="suscripción" route="suscripción" />
       </Link>
       <div className={`${classes.navLinkSeparator}`}>
         <p> - </p>
@@ -53,7 +53,7 @@ export const NavBarLinksContainer = () => {
         offset={0}
         duration={500}
       >
-        <NavBarLinks direction="Nosotras" route="nosotras" />
+        <NavBarLinks direction="nosotras" route="nosotras" />
       </Link>
     </div>
   );

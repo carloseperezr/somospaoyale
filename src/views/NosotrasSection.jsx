@@ -1,9 +1,13 @@
+import React, { useRef } from "react";
 import { NosotrasContainer } from "../components/nosotras/NosotrasContainer";
 import classes from "./Nosotras.module.css";
-export const NosotrasSection = () => {
+
+const NosotrasSection = React.forwardRef((props, ref) => {
   return (
-    <div id="nosotras" className={`${classes.nosotrasContainer}`}>
+    <div ref={ref} className={`${classes.nosotrasContainer}`}>
       <NosotrasContainer />
     </div>
   );
-};
+});
+
+export default NosotrasSection;

@@ -10,6 +10,10 @@
   <body>
     <div id="root"></div>
     <script type="module" src="src/main.jsx"></script>
-
+    <script>
+      setTimeout(()=>{
+        history.replaceState('', document.title, window.location.origin + window.location.pathname + window.location.search )
+      }, 5)
+    </script>
   </body>
 </html>

@@ -1,60 +1,37 @@
 import React from "react";
 import { NavBarLinks } from "./NavBarLinks";
 import classes from "./NavBar.module.css";
-import { Link } from "react-scroll";
 
-export const NavBarLinksContainer = () => {
+export const NavBarLinksContainer = ({
+  scrollToSection,
+  inicioRef,
+  equilibriumRef,
+  suscripcionRef,
+  nosotrasRef,
+}) => {
   return (
     <div className={`${classes.navBarLinksContainer}`}>
-      <Link
-        to="inicio"
-        spy={true}
-        smooth={true}
-        hashSpy={true}
-        offset={0}
-        duration={500}
-      >
-        <NavBarLinks direction="inicio" route="inicio" />
-      </Link>
+      <div onClick={() => scrollToSection(inicioRef)}>
+        <NavBarLinks direction="Inicio" />
+      </div>
       <div className={`${classes.navLinkSeparator}`}>
         <p> - </p>
       </div>{" "}
-      <Link
-        to="equilibrium"
-        spy={true}
-        smooth={true}
-        hashSpy={true}
-        offset={0}
-        duration={500}
-      >
-        <NavBarLinks direction="equilibrium" route="equilibrium" />
-      </Link>
+      <div onClick={() => scrollToSection(equilibriumRef)}>
+        <NavBarLinks direction="Equilibrium" />
+      </div>
       <div className={`${classes.navLinkSeparator}`}>
         <p> - </p>
       </div>
-      <Link
-        to="suscripción"
-        spy={true}
-        smooth={true}
-        hashSpy={true}
-        offset={0}
-        duration={500}
-      >
-        <NavBarLinks direction="suscripción" route="suscripción" />
-      </Link>
+      <div onClick={() => scrollToSection(suscripcionRef)}>
+        <NavBarLinks direction="Suscripción" />
+      </div>
       <div className={`${classes.navLinkSeparator}`}>
         <p> - </p>
       </div>{" "}
-      <Link
-        to="nosotras"
-        spy={true}
-        smooth={true}
-        hashSpy={true}
-        offset={0}
-        duration={500}
-      >
-        <NavBarLinks direction="nosotras" route="nosotras" />
-      </Link>
+      <div onClick={() => scrollToSection(nosotrasRef)}>
+        <NavBarLinks direction="Nosotras" />
+      </div>
     </div>
   );
 };

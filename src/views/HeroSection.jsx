@@ -1,10 +1,13 @@
+import React from "react";
 import { HeroContainer } from "../components/hero/HeroContainer";
 import classes from "./Hero.module.css";
 
-export const HeroSection = () => {
+const HeroSection = React.forwardRef((props, ref) => {
   return (
-    <div id="inicio" className={`${classes.heroContainer}`}>
+    <div ref={ref} className={`${classes.heroContainer}`}>
       <HeroContainer />
     </div>
   );
-};
+});
+
+export default HeroSection;

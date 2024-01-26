@@ -1,10 +1,13 @@
+import React, { useRef } from "react";
 import { EquilibriumContainer } from "../components/equilibrium/EquilibriumContainer";
 import classes from "./Equilibrium.module.css";
 
-export const EquilibriumSection = () => {
+const EquilibriumSection = React.forwardRef((props, ref) => {
   return (
-    <div id="equilibrium" className={`${classes.equilibriumContainer}`}>
+    <div ref={ref} className={`${classes.equilibriumContainer}`}>
       <EquilibriumContainer />
     </div>
   );
-};
+});
+
+export default EquilibriumSection;

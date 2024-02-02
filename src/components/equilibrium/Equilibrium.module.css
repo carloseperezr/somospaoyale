@@ -1,18 +1,19 @@
 .equilibriumInfoContainer{
   width: 768px;
   height: 100%;
-  padding: 20px;
+  padding: 0px 20px;
   display: flex;
   flex-direction: column;
-  align-items: self-start;
+  align-items: center;
+  justify-content: center;
 }
 
 .equilibriumInfoContainer h2 {
   font-family: AgrandirRegular;
   font-weight: lighter;
   font-size: 64px;
-  margin-top: 200px;
   color: #B97286;
+  padding-top: 80px;
 }
 
 .equilibriumInfoContainer p{
@@ -100,7 +101,6 @@
   font-size: 32px;
 }
 
-
 .cardInfo3{
   margin-top: 20px;
   width: 200px;
@@ -139,7 +139,7 @@
   color: #B97286;
   font-family: AgrandirBold;
   font-weight: bolder;
-  padding: 10px 0px;
+  padding: 10px;
   list-style: none;
   font-weight: lighter;
   transition: 0.3s ease-in-out;
@@ -151,7 +151,6 @@
   transition: 0.3s ease-in-out;
   font-size: 32px;
 }
-
 
 .equilibriumCardBasic{
   display: flex;
@@ -181,8 +180,9 @@
 
 @media (width < 768px) {
   .equilibriumInfoContainer{
-    margin-bottom: 250px;
-    padding: 0px 20px;
+    margin-top: -170px;
+    /* margin-bottom: 250px; */
+    padding-top: 0px;
     display: flex;
     width: 100%;
     height: 100%;
@@ -190,6 +190,10 @@
     justify-content: center;
     background-color: #F5EDE6;
   }
+
+.equilibriumInfoContainer h2 {
+  padding: 0px;
+}
 
   .equilibriumInfoContainer h2 {
     text-align: center;
@@ -225,7 +229,6 @@
   .cardInfo3{
     background-position: center;
     padding: 0px 5px;
-
     width: 30%;
     height: 100px;
   }

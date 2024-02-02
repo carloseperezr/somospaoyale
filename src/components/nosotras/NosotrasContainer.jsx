@@ -1,6 +1,5 @@
 import React from "react";
 import classes from "./Nosotras.module.css";
-import paoyale from "../../assets/paoyale.jpeg";
 
 export const NosotrasContainer = () => {
   return (

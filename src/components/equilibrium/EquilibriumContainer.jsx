@@ -15,7 +15,7 @@ export const EquilibriumContainer = () => {
           contar con habilidades efectivas de gestión del tiempo, que te
           permitan vivir a plenitud teniendo momentos para todo.
         </p>
-        <div>
+        <div className={`${classes.listContainer}`}>
           <ul>
             <li className={`${classes.listItem}`}>Organiza tu vida</li>
             <li className={`${classes.listItem}`}>Crea una nueva realidad</li>

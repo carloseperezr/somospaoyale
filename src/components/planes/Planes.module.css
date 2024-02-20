@@ -186,11 +186,18 @@
   flex-direction: column; 
   align-items: center;
   justify-content: center; 
-}
+  }
 
-.planesWraper .mainTitleContainer{
-  margin-top: 70px;
-}
+  .planInfo{
+    width: 90%;
+    padding: 0;
+    margin: 0;
+  }
+
+  .planesWraper .mainTitleContainer{
+    margin-top: 70px;
+    text-align: center;
+  }
 
   .cardWraper{
     display: flex;
@@ -206,13 +213,5 @@
     display: flex;
     flex-direction: column;
     height: 100%;
-  }
-
-  .basicCard{
-    margin-bottom: 20px;
-  }
-
-  .premiumCardBtn{
-    margin-bottom: 20px;
   }
 }

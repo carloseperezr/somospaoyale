@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
+import classes from "./BeHold.module.css";
 
 const BeholdWidget = () => {
   useEffect(() => {
-    // Código del script
     const script = document.createElement("script");
     script.src = "https://w.behold.so/widget.js";
     script.type = "module";
@@ -14,7 +14,12 @@ const BeholdWidget = () => {
     };
   }, []);
 
-  return <figure data-behold-id="5fVWWYFSgCfNTuoRnFBk"></figure>;
+  return (
+    <figure
+      className={`${classes.beHold}`}
+      data-behold-id="5fVWWYFSgCfNTuoRnFBk"
+    ></figure>
+  );
 };
 
 export default BeholdWidget;

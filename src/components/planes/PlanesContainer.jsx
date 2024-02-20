@@ -4,14 +4,14 @@ import { FaCircleCheck } from "react-icons/fa6";
 export const PlanesContainer = () => {
   return (
     <div className={`${classes.planesWraper}`}>
-      <h2 className={`${classes.mainTitleContainer}`}>¿Cómo unirme?</h2>
       <div className={`${classes.planInfo}`}>
+        <h2 className={`${classes.mainTitleContainer}`}>¿Cómo unirme?</h2>
         <div className={`${classes.stepsListContainer}`}>
           <ul>
             <li>
               <p className={`${classes.listNumber}`}>1</p>{" "}
               <p className={`${classes.listStep}`}>
-                Elige el plan de tu preferencia.
+                Confirma con nosotras todos los beneficios de Equilibrium.
               </p>
             </li>
             <li>

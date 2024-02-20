@@ -1,6 +1,5 @@
 .planesWraper{
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
@@ -11,8 +10,9 @@
 
 .planInfo{
   display: flex;
-  width: 90%;
+  width: 50%;
   flex-direction: column;
+  padding: 40px;
 }
 
 .mainTitleContainer{
@@ -22,7 +22,7 @@
   font-size: 64px;
   margin: 50px 0px 50px 0px;
   font-weight: lighter;
-  text-align: center;
+  text-align: start;
 }
 
 .titleContainer{
@@ -86,7 +86,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 20px 20px;
+  padding: 20px 80px;
 }
 
 .planesContainer{
@@ -102,11 +102,6 @@
   height: 600px;
   border-radius: 20px;
   padding: 20px;
-  transition: 0.5s ease-in-out;
-}
-
-.basicCard:hover{
-  transition: 0.5s ease-in-out;
   box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.411);
 }
 
@@ -182,7 +177,7 @@
   background-color: #ACA7A3;
 }
 
-@media (width < 768px) {
+@media (max-width : 768px) {
 
   .planesWraper{
   width: 80%;
